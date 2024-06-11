@@ -1,0 +1,54 @@
+/* html body {
+    overflow: hidden;
+} */
+body {
+    background-image: url("images/bg.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 100%;
+}
+.waterMark {
+    bottom: 0px;
+    right: 15px;
+}
+.details {
+    backdrop-filter: blur(3px);
+}
+.temp {
+    font-size: 155px;
+}
+.city {
+  text-transform: capitalize;
+}
+
+#typing {
+  text-align: center;
+  margin: auto;
+  height: 50px;
+}
+
+
+  
+  .input {
+    height: 40px;
+    line-height: 28px;
+    width: 80%;
+    padding-left: .5rem;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    transition: .3s ease;
+    border: none;
+    border-bottom: 1px solid white;
+  }
+  
+  .input::placeholder {
+    color: #fff;
+
+  }
+  
+  .input:focus::placeholder {
+    color: #999;
+  }
+  
